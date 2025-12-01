@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Hanzi-Shifu-Restaurant/static/css/main.f14d977c.css",
-    "main.js": "/Hanzi-Shifu-Restaurant/static/js/main.d7ac6615.js",
+    "main.js": "/Hanzi-Shifu-Restaurant/static/js/main.d7439242.js",
     "static/media/gallery12.png": "/Hanzi-Shifu-Restaurant/static/media/gallery12.d892dc37b4a59881a81f.png",
     "static/media/gallery13.png": "/Hanzi-Shifu-Restaurant/static/media/gallery13.8bb36151b96c6fcfd483.png",
     "static/media/location3.png": "/Hanzi-Shifu-Restaurant/static/media/location3.786c258a9dc30fcb4092.png",
@@ -26,10 +26,10 @@
     "static/media/gallerylogo.png": "/Hanzi-Shifu-Restaurant/static/media/gallerylogo.a09b5c671c9ce3ea60df.png",
     "index.html": "/Hanzi-Shifu-Restaurant/index.html",
     "main.f14d977c.css.map": "/Hanzi-Shifu-Restaurant/static/css/main.f14d977c.css.map",
-    "main.d7ac6615.js.map": "/Hanzi-Shifu-Restaurant/static/js/main.d7ac6615.js.map"
+    "main.d7439242.js.map": "/Hanzi-Shifu-Restaurant/static/js/main.d7439242.js.map"
   },
   "entrypoints": [
     "static/css/main.f14d977c.css",
-    "static/js/main.d7ac6615.js"
+    "static/js/main.d7439242.js"
   ]
 }
