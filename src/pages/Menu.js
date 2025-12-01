@@ -1,11 +1,11 @@
 import React from "react";
 import "../styles/Menu.css";
-import MenuNavbar from "../components/MenuNavbar";
+import Navbar from "../components/Navbar";
 
 function Menu() {
   return (
     <div className="menu-page">
-      <MenuNavbar />
+      <Navbar />
 
       <div className="menu-container">
        <aside className="menu-sidebar">

@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&display=swap');
 
 .navbar {
-  background: transparent;             
-  position: fixed;                      
+  background: transparent;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -13,6 +13,10 @@
   padding: 30px 40px;
   font-family: 'Inria Serif', serif;
   transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .navbar-container {
@@ -35,39 +39,84 @@
   display: flex;
   gap: 2rem;
   margin: 0;
+  padding: 0;
 }
 
 .navbar-links li a {
-  text-decoration: none;      
-  color: white;                
-  font-weight: 8;
-  font-size:1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
   transition: color 0.3s ease;
 }
 
-
 .navbar-links li a:hover {
-  color: #c7b352; 
-}
-
-@media (max-width: 768px) {
-  .navbar-links {
-    gap: 1rem;
-    font-size: 0.9rem;
-  }
-  .navbar-logo img {
-    height: 55px;
-  }
+  color: #c7b352;
 }
 
 
 .navbar-links li:last-child a {
-  border: 1.5px solid #C6B251;  
+  border: 1.5px solid #C6B251;
   padding: 8px 14px;
   border-radius: 6px;
   transition: all 0.3s ease;
 }
+
 .navbar-links li:last-child a:hover {
-  background-color: #C6B251;     
-  color: rgb(0, 0, 0);                 
+  background-color: #C6B251;
+  color: #000;
+}
+
+
+.navbar-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 16px 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .navbar-logo img {
+    height: 55px;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+
+  .navbar-links {
+    position: absolute;
+    top: 80px;                        
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 0;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+  }
+
+
+  .navbar-links.open {
+    height: 260px; 
+    padding: 1.5rem 0;
+  }
+
+  .navbar-links li:last-child a {
+    width: 140px;
+    text-align: center;
+  }
 }

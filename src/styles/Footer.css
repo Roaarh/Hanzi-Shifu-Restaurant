@@ -18,7 +18,7 @@
 
 .footer-left {
   flex: 1;
-  min-width: 200px;
+  min-width: 220px;
 }
 
 .footer-logo {
@@ -29,7 +29,7 @@
 .footer-tagline {
   color: #C6B251;
   font-style: italic;
-  max-width: 200px;
+  max-width: 220px;
   font-size: 0.9rem;
 }
 
@@ -37,12 +37,13 @@
   display: flex;
   gap: 50px;
   flex: 1;
-  min-width: 200px;
+  min-width: 220px;
 }
 
 .footer-links ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .footer-links a {
@@ -61,15 +62,13 @@
   min-width: 220px;
 }
 
-.footer-contact h4,
-.footer-hours h4 {
+.footer-contact h4 {
   color: #C6B251;
   margin-bottom: 10px;
   font-size: 1.1rem;
 }
 
-.footer-contact p,
-.footer-hours p {
+.footer-contact p {
   margin: 4px 0;
   font-size: 0.9rem;
 }
@@ -101,13 +100,31 @@
   color: #ccc;
 }
 
+
+
 @media (max-width: 768px) {
+  .footer {
+    padding: 40px 8%;
+  }
+
   .footer-container {
     flex-direction: column;
     text-align: center;
+    align-items: center;
+  }
+
+  .footer-left,
+  .footer-links,
+  .footer-info {
+    align-items: center;
+  }
+
+  .footer-tagline {
+    max-width: 100%;
   }
 
   .footer-links {
     justify-content: center;
+    gap: 30px;
   }
 }

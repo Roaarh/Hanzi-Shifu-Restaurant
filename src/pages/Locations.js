@@ -1,9 +1,8 @@
-// src/pages/Locations.js
 import React from "react";
 import "../styles/location.css";
 import Navbar from "../components/Navbar";
 
-import locationmain from "../assets/locationmain.png"; // replace with your image
+import locationmain from "../assets/locationmain.png"; 
 import location1 from "../assets/location1.png";
 import locations2 from "../assets/locations2.png";
 import location3 from "../assets/location3.png";

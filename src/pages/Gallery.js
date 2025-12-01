@@ -1,6 +1,6 @@
 // src/pages/Gallery.js
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+
 import "../styles/Gallery.css";
 import GalleryNavbar from "../components/GalleryNavbar";
 

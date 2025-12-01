@@ -9,6 +9,7 @@ import Reservations from "./pages/Reservations";
 import Footer from "./components/Footer";
 
 function App() {
+  
   return (
     <Router>
       <Routes>
