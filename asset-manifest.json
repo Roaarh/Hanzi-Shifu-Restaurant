@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Hanzi-Shifu-Restaurant/static/css/main.f14d977c.css",
+    "main.js": "/Hanzi-Shifu-Restaurant/static/js/main.9d326aba.js",
+    "static/media/gallery12.png": "/Hanzi-Shifu-Restaurant/static/media/gallery12.d892dc37b4a59881a81f.png",
+    "static/media/gallery13.png": "/Hanzi-Shifu-Restaurant/static/media/gallery13.8bb36151b96c6fcfd483.png",
+    "static/media/location3.png": "/Hanzi-Shifu-Restaurant/static/media/location3.786c258a9dc30fcb4092.png",
+    "static/media/gallery7.png": "/Hanzi-Shifu-Restaurant/static/media/gallery7.3caa81e898474b067c3d.png",
+    "static/media/locationmain.png": "/Hanzi-Shifu-Restaurant/static/media/locationmain.4e6d9d5be65569ac1cfb.png",
+    "static/media/location1.png": "/Hanzi-Shifu-Restaurant/static/media/location1.969714527fb3ffeb5d75.png",
+    "static/media/gallery11.png": "/Hanzi-Shifu-Restaurant/static/media/gallery11.1f7678249c6536bd7807.png",
+    "static/media/locations2.png": "/Hanzi-Shifu-Restaurant/static/media/locations2.3f6676af44c6701dfe0b.png",
+    "static/media/gallery6.png": "/Hanzi-Shifu-Restaurant/static/media/gallery6.b09094f93adb5020dba8.png",
+    "static/media/home2.png": "/Hanzi-Shifu-Restaurant/static/media/home2.1658b0d5b8405bafea4d.png",
+    "static/media/gallery8.png": "/Hanzi-Shifu-Restaurant/static/media/gallery8.c3c083f9032b99c1e47b.png",
+    "static/media/gallery4.png": "/Hanzi-Shifu-Restaurant/static/media/gallery4.7bb26e9d5669fdf9c00e.png",
+    "static/media/gallery10.png": "/Hanzi-Shifu-Restaurant/static/media/gallery10.21be67a3e9cd2c35dea6.png",
+    "static/media/gallery9.png": "/Hanzi-Shifu-Restaurant/static/media/gallery9.5c2954903850f2c77491.png",
+    "static/media/gallery5.png": "/Hanzi-Shifu-Restaurant/static/media/gallery5.2646a9396b43169b7604.png",
+    "static/media/maingallery.jpeg": "/Hanzi-Shifu-Restaurant/static/media/maingallery.942e720089b5b8b5d5b8.jpeg",
+    "static/media/main.jpeg": "/Hanzi-Shifu-Restaurant/static/media/main.a771ea4e8254211bd91a.jpeg",
+    "static/media/gallery2.jpeg": "/Hanzi-Shifu-Restaurant/static/media/gallery2.716a3bdd0d96bf7518a2.jpeg",
+    "static/media/gallery3.jpeg": "/Hanzi-Shifu-Restaurant/static/media/gallery3.d317f1473eae3c2a41b7.jpeg",
+    "static/media/reservation.jpeg": "/Hanzi-Shifu-Restaurant/static/media/reservation.8e369255ef646f80d9e8.jpeg",
+    "static/media/logo.png": "/Hanzi-Shifu-Restaurant/static/media/logo.bb14d4214d0af76cebf0.png",
+    "static/media/gallerylogo.png": "/Hanzi-Shifu-Restaurant/static/media/gallerylogo.a09b5c671c9ce3ea60df.png",
+    "index.html": "/Hanzi-Shifu-Restaurant/index.html",
+    "main.f14d977c.css.map": "/Hanzi-Shifu-Restaurant/static/css/main.f14d977c.css.map",
+    "main.9d326aba.js.map": "/Hanzi-Shifu-Restaurant/static/js/main.9d326aba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f14d977c.css",
+    "static/js/main.9d326aba.js"
+  ]
+}
